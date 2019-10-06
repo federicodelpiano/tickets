@@ -1,9 +1,3 @@
-# Aplicacion de cola de tickets:
+# Aplicacion de tickets
 
-Este es un pequeño servidor de express listo para ejecutarse y servir la carpeta public en la web.
-
-Recuerden que deben de reconstruir los módulos de node con el comando
-
-```
-npm install
-```
+App para generar y atender tickets en forma de cola
