@@ -11,28 +11,35 @@
 </head>
 
 <body class="container">
-    <h1>Programa de Colas</h1>
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <div class="text-center">
+                <h1 class="my-5">Sistema de Tickets</h1>
+            
+                <a class="btn btn-info btn-block" target="_blank" href="publico.html">Pantalla publica</a>
+                <hr>
+                <a class="btn btn-secondary btn-block" target="_blank" href="nuevo-ticket.html">Generar Tickets</a>
+            </div>
 
-    <div class="row">
-        <div class="col-6">
+            <hr>
 
-            <a class="btn btn-primary" href="publico.html">Pantalla publica</a>
-            <a class="btn btn-secondary" href="nuevo-ticket.html">Crear Tickets</a>
+            <form action="escritorio.html" target="_blank">
+                <label for="select-escritorio">Atender Tickets</label>
+                <select class="form-control" id="select-escritorio" name="escritorio">
+                    <option selected disabled>Elegir N° de Escritorio...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                </select>
 
-        </div>
-
-        <div class="col-6">
-            <form action="escritorio.html">
-                <input name="escritorio" type="number" class="form-control" placeholder="Escritorio" autofocus required>
-
-                <br>
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn btn-primary btn-block my-3">
                     Ingresar
                 </button>
             </form>
         </div>
     </div>
-
 </body>
 
 </html>
