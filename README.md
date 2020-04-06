@@ -1,6 +1,6 @@
 <h1 align="center">TicketsApp</h1>
 
-<h2 align="center">Aplicación para gastionar atencion con tickets</h2>
+<h2 align="center">Aplicación para gestionar la atención con tickets</h2>
 
 ### Instalation
 
